@@ -1,3 +1,31 @@
-ls	- used to list the available files and folders in the given list.
-ls -la  - used to list the all available files and folders including the hidden files and shows it in a long format.
-touch   - used to create an empty file in the present directory or in the given path.
+FN = File Name
+DN = Directory Name
+UN = User Name
+P  = Permissions
+DP = Desired Path
+
+ls	      -  used to list the available files and folders in the given list.
+ls -la        -  used to list the all available files and folders including the hidden files and shows it in a long format.
+touch FN      -  used to create an empty file in the present directory or in the given path.
+mkdir DN      -  used to create a  new directory.
+vi FN         -  used to create or edit an existing file.
+cd            -  used to shift to the home directory.
+cd DN         -  used to shift to the mentioned directory.
+cd /          -  used to shift to the root directory.
+cd ..         -  used to shift to the parent directory.
+cp FN1 FN2    -  used to copy the contents of FN1 TO FN2.
+mv FN1 FN2    -  used to move the contents of FN1 TO FN2.
+sudo bash     -  used to switch as root user.
+su UN         -  used to switch to the mentioned user.
+tree          -  used to show all the files, directories and subdirectories that are present in the present directory.
+df -h         -  used to show the mounted path of the present directory and memory available in the disk.
+free          -  used to show the memory space available for the OS.
+nproc         -  used to show the number of CPU available.
+top           -  used to do the functionalities of all (df -h, free and nproc).
+chmod +-P FN  -  used to change the permission of the mentioned file.
+    
+                 Here P = W(write)(4), R(read)(2), X(Execute)(1)
+
+ln -s FN DP   -  used to create a soft link of the mentioned file name in the desired path.
+ln FN DP   -  used to create a hard link of the mentioned file name in the desired path.
+		 
